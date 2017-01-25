@@ -10,7 +10,7 @@ namespace RectangleArea
     {
         static void Main(string[] args)
         {
-            Console.Write("Add the data of the sides:");
+            Console.Write("Add the data of both sides:");
             double a = double.Parse(Console.ReadLine());
             double b = double.Parse(Console.ReadLine());
             var rectangleArea = a * b;
